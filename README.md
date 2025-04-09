@@ -14,6 +14,23 @@ To: April 8, 2025
 site:genk.vn after:2025-04-04 before:2025-04-08
 ```
 
+**Shortcut using Google Search Operators**
+
+```
+latest technology news after:2025-04-04 before:2025-04-05
+```
+
+```
+keyword after:yyyy-MM-dd before:yyyy-MM-dd
+```
+
+## C# DateTime Format
+```
+DateTime.Now.ToString("yyyy-MM-dd h:mm tt");  // => "2016-09-26 04:38 am"
+DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"); // => "2016-09-26 16:38:58"
+DateTime.Now.ToString("yyyy-MM-dd");          // => "2016-09-26"
+DateTime.Now.ToString("M/d/yyyy h:m:s tt");   // => "9/26/2016 04:38:58 am"
+```
 
 ## T-SQL: This will return articles created exactly 5 days ago
 ```
